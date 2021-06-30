@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CovidQR</string>
+    <string name="nombre_y_apellido">Nombre y apellido</string>
+</resources>
