@@ -1,4 +1,4 @@
-package com.xer.covidqr
+ package com.xer.covidqr
 
 import android.content.Intent
 import android.net.Uri
@@ -52,10 +52,7 @@ class MainActivity3 : AppCompatActivity() {
 
 
        btnQR.setOnClickListener(){
-           /*
-           val intento1 = Intent(this, MainActivity4::class.java)
-           startActivity(intento1)
-            */
+       
            initScaner()
 
        }

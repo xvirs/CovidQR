@@ -13,12 +13,10 @@ import java.lang.Exception
 
 class MainActivity : AppCompatActivity() {
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        println("SE ABRIO LA PRIMERA VENTANA")
 
         val fichero = BufferedReader(
                 InputStreamReader(openFileInput("Datos.txt")))
